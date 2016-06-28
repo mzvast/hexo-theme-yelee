@@ -14,7 +14,7 @@ menu:
   关于我: /about/
 
 # Link to your avatar | 填写头像地址
-avatar: /img/avatar.png
+avatar: /img/mzvast-1.png
 
 # Small icon of Your site | 站点小图标地址
 favicon: /favicon.png
@@ -31,7 +31,7 @@ favicon: /favicon.png
 root_url: 
 
 # Year of Site Creation | 网站成立年份
-since: 2016
+since: 2015
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -40,11 +40,11 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto:123@123.com"
+  Email: "mailto:mzvast@gmail.com"
   #新浪微博: "sina weibo"
-  GitHub: "#"
+  GitHub: "https://github.com/mzvast"
   #V2EX: "#"
-  RSS: "/atom.xml"
+  # RSS: "/atom.xml"
   #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
@@ -97,8 +97,8 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  #on: true
-  domain: 
+  on: true
+  domain: mzvast-github
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
@@ -117,7 +117,7 @@ youyan:
 ## "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
 ## "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片
 ## "0": white-gray background | 淳朴灰白背景
-background_image: 5
+background_image: 0
 
 # Base Font Size | 字号调节
 base_font_size: 16  #px, 16 - 24
@@ -127,7 +127,7 @@ base_font_size: 16  #px, 16 - 24
 color_scheme: 
 
 highlight_style:
-  #on: true
+  on: true
   inline_code: 1  # Value: 0 - 9 可选
   code_block: 1  # Value: 0 - 4 
   # Set inline_code to style highlight text
@@ -136,8 +136,8 @@ highlight_style:
   # 通过 code_block 切换内置代码高亮配色主题
 
 blockquote_style:
-  #on: true
-  blockquote: 1  # Value: 0 - 7 可选
+  on: true
+  blockquote: 2  # Value: 0 - 7 可选
   # 自定义文章「引用部分」的样式
 
 # Headings Style | 标题风格
@@ -162,7 +162,7 @@ toc_nowrap: false
 
 # 是否开启主页及加载头像时的动画效果
 # Animation in Homepage and Loading avatar
-animate: true
+animate: false #true
 
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
@@ -172,7 +172,7 @@ jquery_ui: false
 
 # 是否开启边栏多标签切换
 # Birdhouse button in left column
-tagcloud: true
+tagcloud: false #true
 
 # Blogroll, Link exchange | 友情链接
 friends:
@@ -219,8 +219,8 @@ ie_updater:
 ## Insatall below plugin to take effect | 使用搜索需先安装对应插件
 ## https://github.com/PaicHyperionDev/hexo-generator-search
 search: 
-  #on: true
-  onload: false
+  on: true
+  onload: true #false
   ## true: get search.xml file when the page has loaded
   ## false: get the file when search box gets focus
 
