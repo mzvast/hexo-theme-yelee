@@ -1,7 +1,12 @@
-.body-wrap{
-  margin-bottom: 126px;
-  overflow: hidden;
-}
+.body-wrap
+    if hexo-config("limit_article_width.on")
+        max-width hexo-config("limit_article_width.max_width")em
+        margin auto
+
+    margin-bottom 126px
+    overflow hidden
+
+
 .article {
   margin: 30px;
   margin-bottom: 5px;

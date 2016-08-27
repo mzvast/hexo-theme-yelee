@@ -154,11 +154,11 @@ left_col_width: 300
 copyright: true
 
 # Table of contents | 文章目录
-toc: true
-
-# 目录中标题不换行
-# Keep TOC title on the same line | 
-toc_nowrap: false
+toc:
+  on: true
+  list_number: true # 目录序号
+  max_depth: 3  # 1 - 6 (h1-h6) 目录最大级数
+  nowrap: false # Keep title on same line | 目录标题不换行
 
 # 是否开启主页及加载头像时的动画效果
 # Animation in Homepage and Loading avatar
@@ -167,6 +167,11 @@ animate: false #true
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
 jquery_ui: false
+
+# Max width of right cloumn | 限制右侧内容的宽带 
+limit_article_width: 
+  on: false
+  max_width: 60 # em
 
 # >>> Small features | 小功能设置 <<<
 
@@ -211,6 +216,12 @@ ie_updater:
   link: //outdatedbrowser.com/
   ## http://browsehappy.com/
   ## http://outdatedbrowser.com/
+
+# Tab Title Change | 标签页标题切换
+tab_title_change: 
+  on: false
+  left_tab_title: '(つェ⊂) 我藏好了哦~ '
+  return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
 
 # >>> Vendors | 第三方工具 & 服务 <<<
